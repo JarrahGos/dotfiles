@@ -4,13 +4,15 @@ mixer-element=Master
 pcm=sysdefault:CARD=DX
 
 [audacious]
+output_bit_depth=32
 shuffle=TRUE
 
 [audgui]
 about_win=0,0,606,458
-filebrowser_win=1280,0,638,538
+filebrowser_win=1280,360,638,358
 filesel_path=/home/jarrah/Books/J. R. R. Tolkien/2007 - The Children of Húrin
 info_win=0,0,1278,1078
+jump_to_time_win=0,0,264,116
 no_confirm_playlist_delete=TRUE
 playlist_import_win=0,0,1278,1078
 playlist_path=file:///home/jarrah/Music
@@ -18,10 +20,10 @@ playlist_path=file:///home/jarrah/Music
 [gtkui]
 column_expand=1,1,1,0,0
 column_widths=-1,-1,-1,-1,-1
-player_height=1078
+player_height=538
 player_width=638
 player_x=1280
-player_y=0
+player_y=540
 
 [gtkui-layout]
 item_count=0
