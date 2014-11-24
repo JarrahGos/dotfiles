@@ -9,8 +9,8 @@ shuffle=TRUE
 
 [audgui]
 about_win=0,0,606,458
-filebrowser_win=1280,360,638,358
-filesel_path=/home/jarrah/Books/J. R. R. Tolkien/2007 - The Children of Húrin
+filebrowser_win=1280,540,638,268
+filesel_path=/home/jarrah/Music
 info_win=0,0,1278,1078
 jump_to_time_win=0,0,264,116
 no_confirm_playlist_delete=TRUE
