@@ -5,17 +5,20 @@ pcm=sysdefault:CARD=DX
 
 [audacious]
 output_bit_depth=32
+repeat=TRUE
 shuffle=TRUE
 
 [audgui]
 about_win=0,0,606,458
 filebrowser_win=1280,540,638,268
 filesel_path=/home/jarrah/Music
-info_win=0,0,1278,1078
+info_win=1280,360,638,358
 jump_to_time_win=0,0,264,116
 no_confirm_playlist_delete=TRUE
 playlist_import_win=0,0,1278,1078
+playlist_manager_win=0,0,1278,1078
 playlist_path=file:///home/jarrah/Music
+queue_manager_win=0,0,1278,1078
 
 [gtkui]
 column_expand=1,1,1,0,0
@@ -23,7 +26,9 @@ column_widths=-1,-1,-1,-1,-1
 player_height=1078
 player_width=638
 player_x=1280
-player_y=0
+player_y=1080
 
 [gtkui-layout]
-item_count=0
+item0_name=Search Tool
+item0_pos=0,-1,-1,200,984
+item_count=1
