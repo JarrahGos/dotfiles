@@ -21,3 +21,4 @@ wmname LG3D &
 #dropboxd &
 #ethtool -s eth0 wol g &
 wait $wmpid
+numlockx off

@@ -1,17 +1,18 @@
 
 [alsa]
 mixer-element=Master
-pcm=sysdefault:CARD=DX
+pcm=iec958:CARD=DX,DEV=0
 
 [audacious]
+leading_zero=TRUE
 output_bit_depth=32
-repeat=TRUE
+show_numbers_in_pl=TRUE
 shuffle=TRUE
 
 [audgui]
 about_win=0,0,606,458
-filebrowser_win=1280,540,638,268
-filesel_path=/home/jarrah/Music
+filebrowser_win=4480,0,1278,1078
+filesel_path=/home/jarrah/Music/soundtrack/Interstellar - Deluxe - 2014
 info_win=1280,360,638,358
 jump_to_time_win=0,0,264,116
 no_confirm_playlist_delete=TRUE
@@ -21,14 +22,15 @@ playlist_path=file:///home/jarrah/Music
 queue_manager_win=0,0,1278,1078
 
 [gtkui]
-column_expand=1,1,1,0,0
-column_widths=-1,-1,-1,-1,-1
+column_expand=0,1,1,1,0,0,0
+column_widths=128,275,176,10,176,175,10,100,64,128,275,275,275,10
 player_height=1078
-player_width=638
-player_x=1280
+player_width=1278
+player_x=4480
 player_y=1080
+playlist_columns=number title artist album queued length bitrate
 
 [gtkui-layout]
 item0_name=Search Tool
-item0_pos=0,-1,-1,200,984
+item0_pos=0,-1,-1,369,2044
 item_count=1
