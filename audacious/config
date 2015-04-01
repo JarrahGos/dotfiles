@@ -24,10 +24,10 @@ queue_manager_win=0,0,1278,1078
 [gtkui]
 column_expand=0,1,1,1,0,0,0
 column_widths=128,275,176,10,176,175,10,100,64,128,275,275,275,10
-player_height=1078
+player_height=2158
 player_width=1278
 player_x=4480
-player_y=1080
+player_y=0
 playlist_columns=number title artist album queued length bitrate
 
 [gtkui-layout]

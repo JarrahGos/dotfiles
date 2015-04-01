@@ -18,6 +18,7 @@
 import XMonad
 import Data.Monoid
 import System.Exit
+import XMonad.Actions.SpawnOn
  
 import qualified XMonad.StackSet as W
 import qualified Data.Map        as M
@@ -254,7 +255,7 @@ myManageHook = composeAll
     [ className =? "Gimp"           --> doFloat
     , resource  =? "desktop_window" --> doIgnore
     , resource  =? "kdesktop"       --> doIgnore ]
- 
+
 ------------------------------------------------------------------------
 -- Event handling
  
@@ -334,6 +335,9 @@ defaults = defaultConfig {
         handleEventHook    = myEventHook,
         logHook            = myLogHook,
         startupHook        = myStartupHook
+
+	  -- start internet manager on workspace 8
+	  spawnOn "workspace8" "Connection Status"
    		}
 
 --startup scripts

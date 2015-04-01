@@ -20,5 +20,6 @@ wmname LG3D &
 #exec xmonad
 #dropboxd &
 #ethtool -s eth0 wol g &
+google-chrome-stable --app=https://netcharge1.adfa.edu.au/adfa/portal/popup_text
 wait $wmpid
 numlockx off
