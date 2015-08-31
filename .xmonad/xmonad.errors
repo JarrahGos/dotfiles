@@ -1,20 +1,10 @@
 
-xmonad.hs:337:30:
-    Couldn't match type ‘()’ with ‘[Char] -> [Char] -> X ()’
-    Expected type: (WorkspaceId -> String -> X ())
-                   -> [Char] -> [Char] -> X ()
-      Actual type: (WorkspaceId -> String -> X ()) -> ()
-    The function ‘myStartupHook’ is applied to three arguments,
-    but its type ‘(WorkspaceId -> String -> X ()) -> ()’ has only one
-    In the ‘startupHook’ field of a record
-    In the expression:
-      defaultConfig
-        {terminal = myTerminal, focusFollowsMouse = myFocusFollowsMouse,
-         borderWidth = myBorderWidth, modMask = myModMask,
-         workspaces = myWorkspaces, normalBorderColor = myNormalBorderColor,
-         focusedBorderColor = myFocusedBorderColor, keys = myKeys,
-         mouseBindings = myMouseBindings, layoutHook = myLayout,
-         manageHook = myManageHook, handleEventHook = myEventHook,
-         logHook = myLogHook,
-         startupHook = myStartupHook
-                         spawnOn "workspace8" "Connection Status"}
+xmonad.hs:169:1: Warning: Tab character
+
+xmonad.hs:171:1: Warning: Tab character
+
+xmonad.hs:258:1: Warning: Tab character
+
+xmonad.hs:340:1: Warning: Tab character
+
+xmonad.hs:342:4: Warning: Tab character

@@ -28,5 +28,9 @@ alias nuefi="sudo efibootmgr -t 0"
 alias dvp="setxkbmap -layout us -variant dvp -option altwin:swap_alt_win -option compose:menu -option terminate:ctrl_alt_bksp"
 alias dhcp="sudo dhcpcd -k && sudo dhcpcd eth0"
 alias msfconsole="msfconsole --quiet -x \"db_connect ${USER}@msf\""
+alias modvbox="sudo modprobe -a vboxdrv vboxnetadp vboxnetflt"
+alias google-chrome="google-chrome-stable --ssl-version-min=tls1.2"
+alias vboxmods="sudo modprobe vboxdrv vboxnetadp vboxnetflt vboxpci"
+alias py="python2.7"
 export EDITOR=vim
 

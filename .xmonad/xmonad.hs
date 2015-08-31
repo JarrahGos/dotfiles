@@ -254,7 +254,8 @@ myLayout = tiled ||| Mirror tiled ||| Full
 myManageHook = composeAll
     [ className =? "Gimp"           --> doFloat
     , resource  =? "desktop_window" --> doIgnore
-    , resource  =? "kdesktop"       --> doIgnore ]
+    , resource  =? "kdesktop"       --> doIgnore 
+	, className =? "Connection Status" --> doF (W.shift (myWorkspaces !! 8))]
 
 ------------------------------------------------------------------------
 -- Event handling
@@ -337,7 +338,7 @@ defaults = defaultConfig {
         startupHook        = myStartupHook
 
 	  -- start internet manager on workspace 8
-	  spawnOn "workspace8" "Connection Status"
+--	  spawnOn "workspace8" "Connection Status"
    		}
 
 --startup scripts

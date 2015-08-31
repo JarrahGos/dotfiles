@@ -1,5 +1,6 @@
 
 [alsa]
+mixer=hw:1
 mixer-element=Master
 pcm=iec958:CARD=DX,DEV=0
 
@@ -11,9 +12,9 @@ shuffle=TRUE
 
 [audgui]
 about_win=0,0,606,458
-filebrowser_win=4480,0,1278,1078
-filesel_path=/home/jarrah/Music/soundtrack/Interstellar - Deluxe - 2014
-info_win=1280,360,638,358
+filebrowser_win=2560,1080,1278,1078
+filesel_path=/home/jarrah/Music/soundtrack/The Shawshank Redemption (Original Motion Picture Soundtrack)
+info_win=4480,720,1278,718
 jump_to_time_win=0,0,264,116
 no_confirm_playlist_delete=TRUE
 playlist_import_win=0,0,1278,1078
@@ -23,12 +24,12 @@ queue_manager_win=0,0,1278,1078
 
 [gtkui]
 column_expand=0,1,1,1,0,0,0
-column_widths=128,275,176,10,176,175,10,100,64,128,275,275,275,10
-player_height=2158
+column_widths=128,543,208,10,241,175,10,100,114,133,275,275,275,10
+player_height=1078
 player_width=1278
 player_x=4480
-player_y=0
-playlist_columns=number title artist album queued length bitrate
+player_y=1080
+playlist_columns=number title artist album length bitrate
 
 [gtkui-layout]
 item0_name=Search Tool
